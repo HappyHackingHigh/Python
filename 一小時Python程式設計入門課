@@ -9,15 +9,12 @@ Python開發環境
 Python程式設計{基礎課程}
 
 [1]輸入與輸出 USER INPUTS AND OUTPUTS:
-輸入:input | Raw_input
+[1.1]輸入:input | Raw_input
 raw_input([prompt]) 函數從標準輸入讀取一個行，並返回一個字串（去掉結尾的分行符號）
 input([prompt]) 函數和 raw_input([prompt]) 函數基本類似，但是 input 可以接收一個Python運算式作為輸入，並將運算結果返回。
 
-輸出:print
-
-格式化輸出Formatted Output
-[Further reading延伸閱讀]https://www.python-course.eu/python3_formatted_output.php
-
+[1.2]輸出:print
+------------------------------------------------
 [動手做]下列範例會產生何種結果
 >>> q = 259
 >>> p = 0.038
@@ -25,6 +22,20 @@ input([prompt]) 函數和 raw_input([prompt]) 函數基本類似，但是 input 
 >>> print(q, p, p * q, sep=",")
 >>> print(q, p, p * q, sep=" :-) ")
 >>> print(str(q) + " " + str(p) + " " + str(p * q))
+------------------------------------------------
+
+[1.3]格式化輸出Formatted Output
+[Further reading延伸閱讀]https://www.python-course.eu/python3_formatted_output.php
+
+使用format()
+"{0} love {1}......{2}".format("I","listening","classical Music")
+
+使用%
+'%c' % 97
+'%c %c %c %c %c ' % (97,98,99,100,101)
+'%d 八進位是%0 , 十六進位是  %x' % (97,97, 97)
+
+
 
 [2]各種資料型態及其運算[1][2][3][4]...[X]
 
@@ -72,8 +83,9 @@ nested loop 巢狀迴圈
 [程式開發作業]99乘法表
 
 
-選擇:If |if-else| ..
-沒有switch
+選擇:If |if-else| ..沒有switch
+
+
 
 [4]函式function
 
@@ -118,6 +130,7 @@ https://docs.python.org/2/library/index.html
 
 binascii:
 base64::是一種任意二進位到文本字串的編碼方法，常用於在URL、Cookie、網頁中傳輸少量二進位資料
+    https://docs.python.org/2/library/base64.html#module-base64
 hashlib::提供了常見的雜湊演算法，如MD5，SHA1
 
 -------------------------------------
@@ -128,6 +141,17 @@ start = time.time()						#取得目前時間
 for i in range(10000000):
     math.sin(i)
 print('Time Used:', time.time()-start)	#輸出所耗時間
+-------------------------------------
+import hashlib
+
+a = ‘HappyCTF{It is FUN hashing with python hashlib}’
+
+print hashlib.md5(a).hexdigest()
+print hashlib.sha1(a).hexdigest()
+print hashlib.sha224(a).hexdigest()
+print hashlib.sha256(a).hexdigest()
+print hashlib.sha384(a).hexdigest()
+print hashlib.sha512(a).hexdigest()
 -------------------------------------
 
 
