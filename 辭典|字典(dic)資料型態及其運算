@@ -4,6 +4,12 @@ dict = {'key1': 'value1', 'key2': value2, 'key3': 'value2'};
 
 dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'};
 
+--------------------------------------
+print "dict['Name']: ", dict['Name'];
+print "dict['Age']: ", dict['Age'];
+
+
+
 
 --------------------------------------
 加密
