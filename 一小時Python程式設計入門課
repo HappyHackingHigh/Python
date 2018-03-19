@@ -32,8 +32,15 @@ range|break|continue
 [4]函式function
 
 遞迴函式
-python內建函式
+--------------------
+python內建函式:
+dir(__builtins__)
+help('math')
+help(id)
 
+import sys
+print(system.builtin_module_names)
+----------------------
 [5]標準函式庫
 binascii:
 base64::是一種任意二進位到文本字串的編碼方法，常用於在URL、Cookie、網頁中傳輸少量二進位資料
