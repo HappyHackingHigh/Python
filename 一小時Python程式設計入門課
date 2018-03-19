@@ -1,10 +1,51 @@
 一小時Python程式設計入門課
 
+=========================================
 為什麼要學Python?
 如何學Python?打造你的學習地圖!
 
 Python開發環境
-
-
+=========================================
 Python程式設計{基礎課程}
+
+[1]輸入與輸出:
+輸入:input  Raw_input
+輸出:print
+格式化輸出
+
+[2]各種資料型態及其運算[1][2][3][4]
+
+數字型(numeric)
+字串(string)
+列表|串列(list)
+辭典|字典(dic)
+………………
+
+[3]迴圈與選擇
+迴圈::while | for loop
+沒有do-while
+range|break|continue
+
+選擇:If |if-else| ..
+沒有switch
+
+[4]函式function
+
+遞迴函式
+python內建函式
+
+[5]標準函式庫
+base64
+hashlib
+
+
+[6]第三方模組
+pycrypto
+pycrypto 2.6.1
+Cryptographic modules for Python.
+
+[7]各種類型檔案存取
+
+
+
 
