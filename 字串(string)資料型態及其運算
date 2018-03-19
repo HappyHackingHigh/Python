@@ -1,0 +1,24 @@
+字串(string)資料型態及其運算
+
+string1 = "I love you"
+
+---------replace()取代--------------
+string1.replace("love","hate")
+
+---------join()--------------
+'_'.join("Dragon")
+'x'.join("Dragon")
+
+-------split()---------------
+string1.split()
+
+#string2 = 'x'.join("Dragon")
+#string2.split(sep='x')
+
+string1.upper()
+string1.swapcase()
+
+###有空白==>去除空白#############
+string11 = "   I love you  "
+string11.strip()
+
