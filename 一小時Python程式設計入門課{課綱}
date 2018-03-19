@@ -1,0 +1,83 @@
+一小時Python程式設計入門課
+
+龍大大
+=========================================
+為什麼要學Python?
+如何學Python?打造你的學習地圖!
+Python開發環境
+=========================================
+Python程式設計{基礎課程}
+
+[1]輸入與輸出 USER INPUTS AND OUTPUTS:
+輸入:input | Raw_input
+raw_input([prompt]) 函數從標準輸入讀取一個行，並返回一個字串（去掉結尾的分行符號）
+input([prompt]) 函數和 raw_input([prompt]) 函數基本類似，但是 input 可以接收一個Python運算式作為輸入，並將運算結果返回。
+
+輸出:print
+
+格式化輸出Formatted Output
+[Further reading延伸閱讀]https://www.python-course.eu/python3_formatted_output.php
+
+[2]各種資料型態及其運算[1][2][3][4]...[X]
+
+數字型(numeric)資料型態及其運算
+字串(string)資料型態及其運算
+列表|串列(list)資料型態及其運算
+辭典|字典(dic)資料型態及其運算
+………………
+
+[3]迴圈與選擇
+迴圈::while | for loop  |沒有do-while  |range|break|continue
+
+
+while 迴圈
+[程式開發作業]最大公因數
+
+--------------------------------
+range
+
+--------------------------------
+nested loop 巢狀迴圈
+[程式開發作業]99乘法表
+
+
+選擇結構:If |if-else| ..沒有switch
+
+[4]函式function
+
+-----------------------------
+[Further reading延伸閱讀]
+http://python3-cookbook.readthedocs.io/zh_CN/latest/chapters/p07_functions.html
+
+可接受任意數量參數的函數
+只接受關鍵字參數的函數
+給函數參數增加元資訊
+返回多個值的函數
+定義有預設參數的函數
+定義匿名或內聯函數
+匿名函數捕獲變數值
+減少可調用物件的參數個數
+將單方法的類轉換為函數
+帶額外狀態資訊的回呼函數
+內聯回呼函數
+訪問閉包中定義的變數
+
+-----------------------------
+遞迴函式
+recursive vs iterative(loop)
+-----------------------------
+python內建函式:
+----------------------
+
+[5]標準函式庫
+binascii:
+base64::是一種任意二進位到文本字串的編碼方法，常用於在URL、Cookie、網頁中傳輸少量二進位資料
+hashlib::提供了常見的雜湊演算法，如MD5，SHA1
+
+
+[6]第三方模組
+pycrypto
+pycrypto 2.6.1
+Cryptographic modules for Python.
+
+[7]各種類型檔案存取
