@@ -20,6 +20,7 @@ print('解密過的答案:'+decrypted)
 print('使用的金鑰:'+ key)
 
 
+
 “””
 itertools反覆運算器的特點是：惰性求值（Lazy evaluation）
 只有當反覆運算至某個值時，它才會被計算
