@@ -38,3 +38,8 @@ cycle(iterable)
 repeat(object [,times]
 反復生成 object，如果給定 times，則重複次數為 times，否則為無限
 “””
+“””
+Python 內建的 itertools 模組包含了一系列用來產生不同類型反覆運算器的函數或類別，這些函數的返回都是一個反覆運算器
+我們通過 for 迴圈來遍歷取值
+使用 next() 來取值
+“””
