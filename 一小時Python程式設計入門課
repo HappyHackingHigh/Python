@@ -120,6 +120,16 @@ binascii:
 base64::是一種任意二進位到文本字串的編碼方法，常用於在URL、Cookie、網頁中傳輸少量二進位資料
 hashlib::提供了常見的雜湊演算法，如MD5，SHA1
 
+-------------------------------------
+import time
+import math
+
+start = time.time()						#取得目前時間
+for i in range(10000000):
+    math.sin(i)
+print('Time Used:', time.time()-start)	#輸出所耗時間
+-------------------------------------
+
 
 [6]第三方模組[1][2][3][4]5[6][7]
 PyPI - the Python Package Index
