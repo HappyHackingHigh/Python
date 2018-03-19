@@ -37,8 +37,21 @@ input([prompt]) 函數和 raw_input([prompt]) 函數基本類似，但是 input 
 [3]迴圈與選擇
 迴圈::while | for loop  |沒有do-while  |range|break|continue
 
+[3/1]for loop
+-------------------------------------------------------
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+ 
+for i in range(1,5):
+    for j in range(1,5):
+        for k in range(1,5):
+            if( i != k ) and (i != j) and (j != k):
+                print i,j,k
+-------------------------------------------------------
 
-while 迴圈
+
+[3/2]while 迴圈
+
 [程式開發作業]最大公因數
 
 --------------------------------
@@ -89,7 +102,9 @@ recursive vs iterative(loop)
 [程式開發作業]河內塔
 
 -----------------------------
-python內建函式:
+python內建函式Built-in Functions:
+https://docs.python.org/2/library/functions.html
+
 dir(__builtins__)
 help('math')
 help(id)
@@ -98,22 +113,40 @@ import sys
 print(system.builtin_module_names)
 ----------------------
 
-[5]標準函式庫
+[5]標準函式庫The Python Standard Library[1][2][3][4]5[6][7]
+https://docs.python.org/2/library/index.html
+
 binascii:
 base64::是一種任意二進位到文本字串的編碼方法，常用於在URL、Cookie、網頁中傳輸少量二進位資料
 hashlib::提供了常見的雜湊演算法，如MD5，SHA1
 
 
-[6]第三方模組
+[6]第三方模組[1][2][3][4]5[6][7]
+PyPI - the Python Package Index
+https://pypi.python.org/pypi
+-------------------------------------
+安裝模組:
+pip list
+pip install XXXXX
+pip uninstall XXXXX
+pip install --upgrade XXXX  #升級模組
+-------------------------------------
 pycrypto
 pycrypto 2.6.1
 Cryptographic modules for Python.
 
-[7]各種類型檔案存取
+
+[7]各種類型檔案存取[1][2][3][4]5[6][7]
 
 
 =============================================
-Python Cookbook 3rd Edition Documentation
+參考資料:
+[1]Python Cookbook 3rd Edition Documentation
 http://python3-cookbook.readthedocs.io/zh_CN/latest/index.html
 
+[2]
 https://www.python-course.eu/python3_modules_and_modular_programming.php
+
+[3]Python Documentation contents
+https://docs.python.org/3/contents.html
+https://docs.python.org/2/contents.html
