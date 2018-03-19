@@ -3,18 +3,27 @@
 =========================================
 為什麼要學Python?
 如何學Python?打造你的學習地圖!
-
 Python開發環境
 =========================================
 Python程式設計{基礎課程}
 
 [1]輸入與輸出:
-輸入:input  Raw_input
+輸入:input | Raw_input
 raw_input([prompt]) 函數從標準輸入讀取一個行，並返回一個字串（去掉結尾的分行符號）
 input([prompt]) 函數和 raw_input([prompt]) 函數基本類似，但是 input 可以接收一個Python運算式作為輸入，並將運算結果返回。
 
 輸出:print
-格式化輸出
+
+格式化輸出Formatted Output
+[Further reading延伸閱讀]https://www.python-course.eu/python3_formatted_output.php
+
+[動手做]下列範例會產生何種結果
+>>> q = 459
+>>> p = 0.098
+>>> print(q, p, p * q)
+>>> print(q, p, p * q, sep=",")
+>>> print(q, p, p * q, sep=" :-) ")
+>>> print(str(q) + " " + str(p) + " " + str(p * q))
 
 [2]各種資料型態及其運算[1][2][3][4]
 
@@ -25,9 +34,11 @@ input([prompt]) 函數和 raw_input([prompt]) 函數基本類似，但是 input 
 ………………
 
 [3]迴圈與選擇
-迴圈::while | for loop
-沒有do-while
-range|break|continue
+迴圈::while | for loop  |沒有do-while  |range|break|continue
+
+
+while 迴圈
+[程式開發作業]最大公因數
 
 --------------------------------
 range
@@ -43,6 +54,9 @@ range(start, stop[, step])
 >>> for i in range(len(x)) :
 ...     print(x[i])
 --------------------------------
+nested loop 巢狀迴圈
+[程式開發作業]99乘法表
+
 
 選擇:If |if-else| ..
 沒有switch
@@ -53,7 +67,9 @@ range(start, stop[, step])
 -----------------------------
 遞迴函式
 recursive vs iterative(loop)
-[寫寫程式]費氏數列
+[程式開發作業]費氏數列
+[程式開發作業]n!
+[程式開發作業]河內塔
 
 -----------------------------
 python內建函式:
@@ -79,5 +95,8 @@ Cryptographic modules for Python.
 [7]各種類型檔案存取
 
 
+=============================================
+Python Cookbook 3rd Edition Documentation
+http://python3-cookbook.readthedocs.io/zh_CN/latest/index.html
 
-
+https://www.python-course.eu/python3_modules_and_modular_programming.php
