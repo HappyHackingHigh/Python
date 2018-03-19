@@ -23,4 +23,51 @@ string11 = "   I love you  "
 string11.strip()
 
 
+-------------------------------------------------------------
+
+#!/usr/bin/env python3
+
+alpha = 'abcdefghijklmnopqrstuvwxyz'
+num = '0123456789'
+alnum = alpha + num
+
+ctext = '7sj-ighm-742q3w4t'
+
+def rotate(s, num):
+    new1 = ''
+    for c in s:
+        if c in alnum:
+            new1 += alnum[(alnum.index(c) + num) % 36]
+        else:
+            new1 += c
+    return new1
+
+for x in range(36):
+    print("{}".format(rotate(ctext, x)))
+    
+
+====================
+#!/usr/bin/env python3
+import string
+
+alphabet =  string.ascii_lowercase + string.ascii_uppercase + string.digits 
+
+ctext = "7sj-ighm-742q3w4t"
+
+def shift(n):
+    message = ""
+    for index, char in enumerate(ctext):
+        if char == "-":
+            message += char
+        else:
+            message += alphabet[(alphabet.index(ctext[index])+n)%len(alphabet)]
+    return message.upper()
+
+for i in range(len(alphabet)):
+    message = shift(i)
+    if "RC3" in message:
+        print(message)
+
+------------------------------------------------------------------
+
 re模組與正規表達法(NeXT)
