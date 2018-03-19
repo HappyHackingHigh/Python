@@ -35,9 +35,9 @@ range|break|continue
 python內建函式
 
 [5]標準函式庫
-base64
-hashlib
-
+binascii:
+base64::是一種任意二進位到文本字串的編碼方法，常用於在URL、Cookie、網頁中傳輸少量二進位資料
+hashlib::提供了常見的雜湊演算法，如MD5，SHA1
 
 [6]第三方模組
 pycrypto
