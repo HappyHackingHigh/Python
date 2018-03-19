@@ -1,5 +1,6 @@
 一小時Python程式設計入門課
 
+龍大大
 =========================================
 為什麼要學Python?
 如何學Python?打造你的學習地圖!
@@ -18,14 +19,14 @@ input([prompt]) 函數和 raw_input([prompt]) 函數基本類似，但是 input 
 [Further reading延伸閱讀]https://www.python-course.eu/python3_formatted_output.php
 
 [動手做]下列範例會產生何種結果
->>> q = 459
->>> p = 0.098
+>>> q = 259
+>>> p = 0.038
 >>> print(q, p, p * q)
 >>> print(q, p, p * q, sep=",")
 >>> print(q, p, p * q, sep=" :-) ")
 >>> print(str(q) + " " + str(p) + " " + str(p * q))
 
-[2]各種資料型態及其運算[1][2][3][4]
+[2]各種資料型態及其運算[1][2][3][4]...[X]
 
 數字型(numeric)資料型態及其運算
 字串(string)資料型態及其運算
