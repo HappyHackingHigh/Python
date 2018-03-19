@@ -10,15 +10,18 @@ Python程式設計{基礎課程}
 
 [1]輸入與輸出:
 輸入:input  Raw_input
+raw_input([prompt]) 函數從標準輸入讀取一個行，並返回一個字串（去掉結尾的分行符號）
+input([prompt]) 函數和 raw_input([prompt]) 函數基本類似，但是 input 可以接收一個Python運算式作為輸入，並將運算結果返回。
+
 輸出:print
 格式化輸出
 
 [2]各種資料型態及其運算[1][2][3][4]
 
-數字型(numeric)
-字串(string)
-列表|串列(list)
-辭典|字典(dic)
+數字型(numeric)資料型態及其運算
+字串(string)資料型態及其運算
+列表|串列(list)資料型態及其運算
+辭典|字典(dic)資料型態及其運算
 ………………
 
 [3]迴圈與選擇
@@ -26,13 +29,33 @@ Python程式設計{基礎課程}
 沒有do-while
 range|break|continue
 
+--------------------------------
+range
+range(start, stop[, step])
+
+[動手做]下列範例會產生何種結果
+範例:range(100)
+範例:range(1, 101)
+範例:range(0, 10, 2)
+範例:range(0, -10, -1)
+
+>>>x = 'BreakALL'
+>>> for i in range(len(x)) :
+...     print(x[i])
+--------------------------------
+
 選擇:If |if-else| ..
 沒有switch
 
 [4]函式function
 
+
+-----------------------------
 遞迴函式
---------------------
+recursive vs iterative(loop)
+[寫寫程式]費氏數列
+
+-----------------------------
 python內建函式:
 dir(__builtins__)
 help('math')
@@ -41,10 +64,12 @@ help(id)
 import sys
 print(system.builtin_module_names)
 ----------------------
+
 [5]標準函式庫
 binascii:
 base64::是一種任意二進位到文本字串的編碼方法，常用於在URL、Cookie、網頁中傳輸少量二進位資料
 hashlib::提供了常見的雜湊演算法，如MD5，SHA1
+
 
 [6]第三方模組
 pycrypto
