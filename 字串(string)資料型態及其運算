@@ -22,3 +22,5 @@ string1.swapcase()
 string11 = "   I love you  "
 string11.strip()
 
+
+re模組與正規表達法(NeXT)
