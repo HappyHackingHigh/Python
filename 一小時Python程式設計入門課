@@ -8,7 +8,7 @@ Python開發環境
 =========================================
 Python程式設計{基礎課程}
 
-[1]輸入與輸出:
+[1]輸入與輸出 USER INPUTS AND OUTPUTS:
 輸入:input | Raw_input
 raw_input([prompt]) 函數從標準輸入讀取一個行，並返回一個字串（去掉結尾的分行符號）
 input([prompt]) 函數和 raw_input([prompt]) 函數基本類似，但是 input 可以接收一個Python運算式作為輸入，並將運算結果返回。
@@ -64,6 +64,22 @@ nested loop 巢狀迴圈
 
 [4]函式function
 
+-----------------------------
+[Further reading延伸閱讀]
+http://python3-cookbook.readthedocs.io/zh_CN/latest/chapters/p07_functions.html
+
+可接受任意數量參數的函數
+只接受關鍵字參數的函數
+給函數參數增加元資訊
+返回多個值的函數
+定義有預設參數的函數
+定義匿名或內聯函數
+匿名函數捕獲變數值
+減少可調用物件的參數個數
+將單方法的類轉換為函數
+帶額外狀態資訊的回呼函數
+內聯回呼函數
+訪問閉包中定義的變數
 
 -----------------------------
 遞迴函式
