@@ -69,5 +69,16 @@ for i in range(len(alphabet)):
         print(message)
 
 ------------------------------------------------------------------
+a='cvqAeqacLtqazEigwiXobxrCrtuiTzahfFreqc{bnjrKwgk83kgd43j85ePgb_e_rwqr7fvbmHjklo3tews_hmkogooyf0vbnk0ii87Drfgh_n kiwutfb0ghk9ro987k5tfb_hjiouo087ptfcv}'
+
+a=a[3:]
+flag = ''
+for x in range(0,len(a),1):
+    if x%5==0:
+        flag+=a[x]
+print flag
+------------------------------------------------------------------
+
+
 
 re模組與正規表達法(NeXT)
