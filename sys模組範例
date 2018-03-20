@@ -1,0 +1,135 @@
+sys模組用途:
+This module provides access to some variables used or maintained by the interpreter and 
+to functions that interact strongly with the interpreter. 
+It is always available.
+
+======================================================================
+Python2
+28.1. sys — System-specific parameters and functions
+https://docs.python.org/2/library/sys.html
+
+Python3
+29.1. sys — System-specific parameters and functions
+https://docs.python.org/3/library/sys.html
+======================================================================
+[動手做]下列範例會產生何種結果
+
+import sys
+
+sys.modules  # This is a dictionary that maps module names to modules which have already been loaded.
+
+sys.path # A list of strings that specifies the search path for modules.
+
+sys.platform  # 來判斷是否要執行平台相關的程式碼
+
+sys.version_info  #  提供一組 tuple (major, minor, micro, releaselevel, serial) 來表示當前 Python 的版本。
+
+sys.builtin_module_names #  A tuple of strings giving the names of all modules that are compiled into this Python interpreter.
+
+sys.version  #  A string containing the version number of the Python interpreter plus additional information 
+
+print sys.argv
+
+======================================================================
+sys.argv[]是python獲取命令列參數的方法
+
+在terminal中會輸入的指令  ls -a
+-a就是命令列參數
+sys.argv[0] 代表了文件的檔案名稱本身,意思就是ls 
+sys.argv[1] 就代表了-a
+
+ls -help
+ls -al
+ls -version
+======================================================================
+# -*- coding: utf-8 -*-
+
+import sys
+
+#建立一個讀取檔案的function能將檔案內容print出來
+
+def readfile(filename): 
+
+ '''read file and print'''
+
+ f = file(filename)
+
+ while True:
+
+  line = f.readline()
+
+  if len(line) == 0:
+
+   break
+
+  print line, 
+
+ f.close()
+
+ 
+
+#開始對sys.argv下定義
+
+if len(sys.argv) < 2: #len小於2也就是不帶參數啦
+
+ print 'no argument'
+
+ sys.exit()
+
+if sys.argv[1].startswith('--'):
+
+ option = sys.argv[1][2:] # 取出sys.argv[1]的數值但是忽略掉'--'這兩個字元
+
+ if option == 'version': 
+
+  print 'Version 1.2.3'
+
+ elif option == 'help':
+
+  print 'help documention'
+
+ else:
+
+  print 'only --version --help can be used'
+
+  sys.exit()
+
+else:
+
+ for filename in sys.argv[1:]: #檔案名稱於參數位置時讀取檔案
+
+  readfile(filename)
+
+
+"""
+
+此檔案名稱為readfile.py
+
+則可以用readfile.py --version來查詢版號
+
+readfile.py --help來查詢help文件
+
+readfile.py readme.txt 可以執行function
+======================================================================
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+import sys
+
+# Check number of strings passed
+if len(sys.argv) != 4:
+    print("Usage: python Calculator.py operand1 operator operand2")
+    sys.exit()
+
+# Determine the operator
+if sys.argv[2][0] == '+':
+    result = eval(sys.argv[1]) + eval(sys.argv[3])
+elif sys.argv[2][0] == '-':
+    result = eval(sys.argv[1]) - eval(sys.argv[3])
+elif sys.argv[2][0] == '*':
+    result = eval(sys.argv[1]) * eval(sys.argv[3])
+elif sys.argv[2][0] == '/':
+    result = eval(sys.argv[1]) / eval(sys.argv[3])
+
+# Display result
+print(sys.argv[1], sys.argv[2], sys.argv[3], "=", result)
+======================================================================
