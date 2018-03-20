@@ -1,2 +1,0 @@
-Eorrrs shluoden v repssa liseltny.
-Errors should never pass silently.
