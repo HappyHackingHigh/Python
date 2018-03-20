@@ -231,7 +231,37 @@ range(start, stop[, step])
 >>> for i in range(len(x)) :
 ...     print(x[i])
 --------------------------------
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+ 
+tmp = 0
+for i in range(1,101):
+    tmp += i
+print 'The sum is %d' % tmp
+--------------------------------
+================================================================
+【Python 練習實例30】
+輸入一個5位數，判斷它是不是回文數。
+12321是回文數，個位與萬位相同，十位與千位相同。
+================================================================
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+ 
+a = int(raw_input("請輸入一個數字:\n"))
+x = str(a)
+flag = True
+ 
+for i in range(len(x)/2):
+    if x[i] != x[-i - 1]:
+        flag = False
+        break
+if flag:
+    print "%d 是一個回文數!" % a
+else:
+    print "%d 不是一個回文數!" % a
+------------------------------------------------------------
 
+--------------------------------
 nested loop 巢狀迴圈
 [程式開發作業]99乘法表
 
@@ -256,6 +286,25 @@ def functionname( parameters ):
    "函數_文檔字串"
    function_suite
    return [expression]
+
+================================================================
+【Python 練習實例47】練習撰寫函式swap(a,b)
+寫一個函式將輸入的兩個變數值互換
+================================================================
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+ 
+def swap(a,b):
+    a,b = b,a
+    return (a,b)
+ 
+if __name__ == '__main__':
+    x = 10
+    y = 20
+    print 'x = %d,y = %d' % (x,y)
+    x,y = swap(x,y)
+    print 'x = %d,y = %d' % (x,y)
+---------------------------------------------------------
 
 -----------------------------
 #!/usr/bin/python 
@@ -333,9 +382,22 @@ def fib(n):
 
 print fib(10)
 -----------------------------
+================================================================
+【Python 練習實例28】
+有5個人坐在一起，
+問第五個人多少歲？他說比第4個人大2歲。
+問第4個人歲數，他說比第3個人大2歲。
+問第三個人，又說比第2人大兩歲。
+問第2個人，說比第一個人大兩歲。
+最後問第一個人，他說是10歲。
+請問第五個人多大？
+================================================================
+
 
 -----------------------------
-[4.3]python內建函式Built-in Functions:
+[4.3]匿名函式及lambda運算式
+
+[4.4]python內建函式Built-in Functions:
 https://docs.python.org/2/library/functions.html
 
 dir(__builtins__)
@@ -388,9 +450,11 @@ https://zh.wikipedia.org/wiki/Base64
 import base64
 s = ‘FunnyCTF{BasE64 encoding is fufufufun!}'
 a = base64.b64encode(s)
+print a
 print base64.b64decode(a)
-
-b32
+c = base64.b32encode(s)
+print c
+print base64.b32decode(c)
 
 ===============================================================================
 使用binascii — Convert between binary and ASCII
