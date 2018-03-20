@@ -1,0 +1,27 @@
+os模組
+This module provides a portable way of using operating system dependent functionality.
+這個模組提供了一種方便的使用作業系統函數的方法。
+
+============================================
+os 常用方法
+os.remove() 刪除檔
+os.rename() 重命名檔
+os.walk() 生成目錄樹下的所有檔案名
+os.chdir() 改變目錄
+os.mkdir/makedirs 創建目錄/多層目錄
+os.rmdir/removedirs 刪除目錄/多層目錄
+os.listdir() 列出指定目錄的檔
+os.getcwd() 取得當前工作目錄
+os.chmod() 改變目錄許可權
+os.path.basename() 去掉目錄路徑，返回檔案名
+os.path.dirname() 去掉檔案名，返回目錄路徑
+os.path.join() 將分離的各部分組合成一個路徑名
+os.path.split() 返回( dirname(), basename())元組
+os.path.splitext() 返回 (filename, extension) 元組
+os.path.getatime\ctime\mtime 分別返回最近訪問、創建、修改時間
+os.path.getsize() 返回文件大小
+os.path.exists() 是否存在
+os.path.isabs() 是否為絕對路徑
+os.path.isdir() 是否為目錄
+os.path.isfile() 是否為檔
+============================================
