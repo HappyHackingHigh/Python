@@ -1,4 +1,5 @@
 sys模組用途:
+這個模組可供訪問由解譯器使用或維護的變數和與解譯器進行交互的函數。
 This module provides access to some variables used or maintained by the interpreter and 
 to functions that interact strongly with the interpreter. 
 It is always available.
@@ -29,6 +30,27 @@ sys.builtin_module_names #  A tuple of strings giving the names of all modules t
 sys.version  #  A string containing the version number of the Python interpreter plus additional information 
 
 print sys.argv
+
+
+sys.argv 命令列參數List，第一個元素是程式本身路徑
+sys.modules.keys() 返回所有已經導入的模組清單
+sys.exc_info() 獲取當前正在處理的異常類,exc_type、exc_value、exc_traceback當前處理的異常詳細資訊
+sys.exit(n) 退出程式，正常退出時exit(0)
+sys.hexversion 獲取Python解釋程式的版本值，16進制格式如：0x020403F0
+sys.version 獲取Python解釋程式的版本資訊
+sys.maxint 最大的Int值
+sys.maxunicode 最大的Unicode值
+sys.modules 返回系統導入的模組欄位，key是模組名，value是模組
+sys.path 返回模組的搜索路徑，初始化時使用PYTHONPATH環境變數的值
+sys.platform 返回作業系統平臺名稱
+sys.stdout 標準輸出
+sys.stdin 標準輸入
+sys.stderr 錯誤輸出
+sys.exc_clear() 用來清除當前執行緒所出現的當前的或最近的錯誤資訊
+sys.exec_prefix 返回平臺獨立的python檔安裝的位置
+sys.byteorder 本地位元組規則的指示器，big-endian平臺的值是'big',little-endian平臺的值是'little'
+sys.copyright 記錄python版權相關的東西
+sys.api_version 解譯器的C的API版本
 
 ======================================================================
 sys.argv[]是python獲取命令列參數的方法
