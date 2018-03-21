@@ -46,6 +46,22 @@ area = radius * radius * 3.14159
 print("The area for the circle of radius", radius, "is", area)
 ------------------------------------------------
 
+同時指定(Simultaneous Assignment )
+------------------------------------------------
+#!/usr/bin/env python
+#coding=utf-8
+# Prompt the user to enter three numbers
+number1, number2, number3 = eval(input(
+  "Enter three numbers separated by commas: "))
+
+# Compute average
+average = (number1 + number2 + number3) / 3
+
+# Display result
+print("The average of", number1, number2, number3,
+    "is", average)
+------------------------------------------------
+
 
 [1.2]輸出:print
 ------------------------------------------------
@@ -84,7 +100,21 @@ print("The area for the circle of radius", radius, "is", area)
       %G	 %f 和 %E 的簡寫
       %p	 用十六進位數格式化變數的位址
 
+[1.4]運算子
+餘數運算子 (remainder|modulo)
+------------------------------------------------
+以秒表示的總時間長，取得分鐘數及剩餘的秒數。 
+------------------------------------------------
+#!/usr/bin/env python
+#coding=utf-8
 
+seconds = eval(input("Enter an integer for seconds: "))
+
+minutes = seconds // 60     # Find minutes in seconds
+remainingSeconds = seconds % 60   # Seconds remaining
+print(seconds, "seconds is", minutes,  
+  "minutes and", remainingSeconds, "seconds")
+------------------------------------------------
 
 [2]各種資料型態及其運算[1][2][3][4]...[X]
 
@@ -396,6 +426,7 @@ print fib(10)
 
 -----------------------------
 [4.3]匿名函式及lambda運算式
+-----------------------------
 
 [4.4]python內建函式Built-in Functions:
 https://docs.python.org/2/library/functions.html
@@ -413,6 +444,43 @@ ord('a')
 chr(97)
 chr(ord('A')+1)
 ----------------------
+
+[4.5]使用函式來模組化程式
+函式可用來減少多餘的程式碼，允許程式碼重複使用，還可以用來模組化程式碼，提升程式品質
+
+步驟一:先將常用的功能寫成函式MyGCD.py
+-----------------------------
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+# Return the gcd of two integers 
+def gcd(n1, n2):
+    gcd = 1 # Initial gcd is 1
+    k = 2   # Possible gcd
+
+    while k <= n1 and k <= n2:
+        if n1 % k == 0 and n2 % k == 0:
+            gcd = k # Update gcd
+        k += 1
+
+    return gcd # Return gcd
+
+-----------------------------
+步驟二:在主程式呼叫函式MyGCD.py
+-----------------------------
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
+from MyGCD import gcd # 載入要用的模組
+
+# 請使用者輸入兩個整數
+n1 = eval(input("請輸入第一個整數: "))
+n2 = eval(input("請輸入第二個整數 "))
+
+# 輸出兩個整數的最大公因數
+print("兩個整數的最大公因數", n1,
+    "and", n2, "is", gcd(n1, n2))
+-----------------------------
+
 
 [5]標準函式庫The Python Standard Library[1][2][3][4]5[6][7]
 https://docs.python.org/2/library/index.html
