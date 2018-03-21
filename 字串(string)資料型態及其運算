@@ -28,6 +28,8 @@ min(stringb)
 ---------------------------
 +、 *、 [ : ] 與 in 運算子
 --------------------------- 
+s = '}FTC NOCTIH ot emocleW{noctih'
+''.join(reversed(s))
 
 ---------replace()取代--------------
 string1.replace("love","hate")
