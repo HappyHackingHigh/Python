@@ -6,21 +6,37 @@ http://120.114.62.89
 =========================================
 為什麼要學Python?
 如何學Python?打造你的學習地圖!
-Python開發環境
-安裝Python2.7==>裝在D:\python27
+
+=========================================
+Python開發環境@windwos
+下載python
+安裝Python2.7==>裝在D:\python2
 安裝Python3.6==>裝在D:\python3{記得改成python3}
 -------------------------------------------------------
+[1]使用python interactive shell
 進入python
 在cmd輸入python==>進入
 離開==>exit()
-
 -------------------------------------------------------
-使用notepad++寫程式==>記得檔名要XXX.py
+[2]使用notepad++寫程式==>記得檔名要XXX.py
 執行:
 [1]進入你的程式目錄 D:\p3code (三年級)  D:\p_code(一(年級) 
-[2]D:\python27\python.exe XXX.py
+[2]D:\python2\python.exe XXX.py
 或 D:\python3\python.exe XXX.py
 -------------------------------------------------------
+=========================================
+Python開發環境@Ubuntu 16.04 LTS 64-bit
+
+[1]使用python interactive shell
+開啟terminal,輸入下列指令
+python==>進入python 2.7shell
+python3==>進入python 3.6.X shell
+離開==>exit()
+-------------------------------------------------------
+[2]使用gedit(或nano或vim)寫程式==>記得檔名要XXX.py
+python xxx.py
+python3 xxx.py
+
 =========================================
 Python程式設計{基礎課程}
 
