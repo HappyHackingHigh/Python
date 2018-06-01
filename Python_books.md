@@ -37,8 +37,8 @@ Python 函式庫語法範例字典
 ```
 
 ```
-Python Essential Reference, 4/e (Paperback)
-David Beazley/Addison-Wesley Professional出版日期：2009-07-19
+The Python Standard Library by Example (Paperback)
+Doug Hellmann/Addison-Wesley Professional出版日期：2011-06-11
 ```
 
 # Python Network Programming 網路程式開發
