@@ -226,6 +226,12 @@ Sarah Guido, Andreas C. Mueller 著、李宜修 譯/歐萊禮出版日期：2017
 機器學習:Python實踐
 簡體中文/魏貞原/電子工業出版社出版日期：2018-01-01
 ```
+
+```
+Python 機器學習實踐指南 (Python Machine Learning Blueprints)
+簡體中文/庫姆斯 (Alexander T.Combs)/人民郵電出版社出版日期：2017-05-01
+```
+
 ```
 Python 數據挖掘入門與實踐 (Learning Data Mining with Python)
 簡體中文/羅伯特·萊頓 (Robert Layton)/人民郵電出版社出版日期：2016-07-01
