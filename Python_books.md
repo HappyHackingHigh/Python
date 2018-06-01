@@ -3,7 +3,8 @@
 Python 程式設計入門 (適用於 2.x 與 3.x 版) 葉難/博碩出版日期：2015-04-01
 
 Python 3.5 技術手冊 林信良/碁峰出版日期：2016-07-28
-
+```
+```
 Python 程式設計入門指南 Y. Daniel Liang 著、蔡明志 譯/碁峰出版日期：2016-06-29
 
 C++ 程式設計導論, 3/e (Introduction to Programming with C++, 3/e)
@@ -11,7 +12,8 @@ Y. Daniel Liang 著、蔡明志 譯/碁峰出版日期：2014-07-28
 
 Java 程式設計導論(第十版) (Introduction to Java Programming : Comprehensive Version, 10/e)
 Y. Daniel Liang 著、蔡明志 譯/碁峰出版日期：2015-04-14
-
+```
+```
 Python 也可以這樣學 董付國 著、廖信彥 審校/博碩出版日期：2017-10-30
 
 Python 入門邁向高手之路王者歸來 洪錦魁/上奇資訊出版日期：2017-12-15
