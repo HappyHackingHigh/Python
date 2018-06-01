@@ -1,0 +1,60 @@
+python程式與CTF
+
+Python編碼與解碼
+ASCII
+Base64
+Base32
+
+python程式設計與破密分析
+
+破密分析
+
+古典密碼學
+[1]Substitution ciphers 替換加密
+  https://en.wikipedia.org/wiki/Substitution_cipher
+  
+[1.1]Monoalphabetic substitution
+  
+  凱撒密碼Caesar cipher(ROT13) [https://en.wikipedia.org/wiki/Caesar_cipher]
+  Affine cipher    Atbash cipher  Keyword cipher
+
+[1.2]Polyalphabetic substitution
+  Vigenère cipher (https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
+  Autokey  cipher
+  Homophonic substitution cipher
+  
+[1.3]Polygraphic substitution
+  Playfair  cipher    Hill cipher
+
+[2]Transposition  ciphers   換位加密法
+  https://en.wikipedia.org/wiki/Transposition_cipher
+
+  Rail Fence cipher      Route cipher
+  Scytale
+  Grille
+  Permutation cipher
+  VIC cipher 
+-------------------------------
+RSA公開金鑰
+-------------------------------
+Cipher Tools
+http://rumkin.com/tools/cipher/
+-------------------------------
+==============================
+Python開發環境
+安裝Python2.7==>裝在D:\python27
+安裝Python3.6==>裝在D:\python3{記得改成python3}
+
+
+import sys
+import hashlib
+import os.path
+
+filename = sys.argv[1]
+if os.path.isfile(filename):
+    fp = open(filename, 'rb')
+    contents = fp.read()
+    fp.close()
+    print(hashlib.md5(contents).hexdigest())
+else:
+    print('file not exists')
