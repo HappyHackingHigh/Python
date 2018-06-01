@@ -1,11 +1,9 @@
 # Python Programming
 ```
 Python 程式設計入門 (適用於 2.x 與 3.x 版) 葉難/博碩出版日期：2015-04-01
-```
-```
+
 Python 3.5 技術手冊 林信良/碁峰出版日期：2016-07-28
-```
-```
+
 Python 程式設計入門指南 Y. Daniel Liang 著、蔡明志 譯/碁峰出版日期：2016-06-29
 
 C++ 程式設計導論, 3/e (Introduction to Programming with C++, 3/e)
@@ -13,15 +11,11 @@ Y. Daniel Liang 著、蔡明志 譯/碁峰出版日期：2014-07-28
 
 Java 程式設計導論(第十版) (Introduction to Java Programming : Comprehensive Version, 10/e)
 Y. Daniel Liang 著、蔡明志 譯/碁峰出版日期：2015-04-14
-```
-```
-Python 也可以這樣學 董付國 著、廖信彥 審校/博碩出版日期：2017-10-30
-```
-```
-Python 入門邁向高手之路王者歸來 洪錦魁/上奇資訊出版日期：2017-12-15
-```
 
-```
+Python 也可以這樣學 董付國 著、廖信彥 審校/博碩出版日期：2017-10-30
+
+Python 入門邁向高手之路王者歸來 洪錦魁/上奇資訊出版日期：2017-12-15
+
 Python 程式設計入門：金融商管實務案例, 2/e 林萍珍/博碩出版日期：2017-05-07
 ```
 ```
@@ -68,6 +62,14 @@ Dmitry Zinoviev/Pragmatic Bookshelf出版日期：2018-01-29
 
 # Python Web 網站程式開發
 ```
+一次搞定：所有Python Web框架開發百科全書（最完整Python Web框架，包括Django、Flask、Tornado、Twisted等）
+繁體中文/劉長龍/佳魁資訊出版日期：2017-03-27
+```
+```
+Python Web開發實戰 簡體中文/董偉明/電子工業出版社出版日期：2016-09-01
+一舉兩得功力大精進：學 Python+Web 賺一個未來 繁體中文/董偉明/佳魁資訊出版日期：2017-01-18
+```
+```
 It's Django -- 用 Python 迅速打造 Web 應用
 繁體中文/袁克倫、楊孟穎/碁峰出版日期：2015-06-08
 ```
@@ -96,6 +98,37 @@ Python 網絡爬蟲實戰
 Python 爬蟲開發與項目實戰
 簡體中文/範傳輝/機械工業出版社出版日期：2017-06-01
 ```
+# Python and IOT
+```
+Raspberry Pi Python 編程入門
+簡體中文/Simon Monk/科學出版社出版日期：2014-02-01
+```
+```
+Python Programming with Raspberry Pi
+Sai Yamanoor, Srihari Yamanoor/Packt Publishing - ebooks Account出版日期：2017-04-28
+```
+```
+Raspberry Pi for Python Programmers Cookbook - Second Edition
+英文/Tim Cox/Packt Publishing - ebooks Account出版日期：2016-10-07
+```
+```
+Raspberry Pi 3 Cookbook for Python Programmers - Third Edition: Over 70 recipes for Python Programmers to unleash the potential of Raspberry Pi 3
+英文/Tim Cox, Dr. Steven Lawrence Fernandes/Packt Publishing - ebooks Account出版日期：2018-04-30
+```
+```
+Raspberry Pi Image Processing Programming: Develop Real-Life Examples with Python, Pillow, and SciPy
+英文/Ashwin Pajankar/Apress出版日期：2017-03-24
+```
+```
+Raspberry Pi機器人製作實例：用Python Linux和傳感器搭建智慧小車
+簡體中文/多納特 (Wolfram Donat)/人民郵電出版社出版日期：2016-03-01
+```
+
+```
+Python x Arduino 物聯網整合開發實戰
+繁體中文/Pratik Desai 著、CAVEDU團隊 曾吉弘 譯/碁峰出版日期：2016-06-29
+```
+# Python and Blockchain
 
 
 # Python and Finance
@@ -182,6 +215,19 @@ Matthew Kirk 著；陳仁和 譯/歐萊禮出版日期：2017-09-14
 精通機器學習｜使用Python (Introduction to Machine Learning with Python: A Guide for Data Scientists)
 Sarah Guido, Andreas C. Mueller 著、李宜修 譯/歐萊禮出版日期：2017-10-31
 ```
+```
+機器學習 | 使用 Python 進行預測分析的基本技術
+繁體中文/Michael Bowles 著，賴屹民 譯/碁峰出版日期：2016-09-12
+```
+```
+機器學習:Python實踐
+簡體中文/魏貞原/電子工業出版社出版日期：2018-01-01
+```
+```
+Python 數據挖掘入門與實踐 (Learning Data Mining with Python)
+簡體中文/羅伯特·萊頓 (Robert Layton)/人民郵電出版社出版日期：2016-07-01
+```
+
 # Python Deep learning深度學習
 ```
 Deep Learning：用Python進行深度學習的基礎理論實作
