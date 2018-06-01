@@ -8,6 +8,16 @@ Python 3.5 技術手冊
 林信良/碁峰出版日期：2016-07-28
 ```
 ```
+Python 程式設計入門指南
+Y. Daniel Liang 著、蔡明志 譯/碁峰出版日期：2016-06-29
+
+C++ 程式設計導論, 3/e (Introduction to Programming with C++, 3/e)
+Y. Daniel Liang 著、蔡明志 譯/碁峰出版日期：2014-07-28
+
+Java 程式設計導論(第十版) (Introduction to Java Programming : Comprehensive Version, 10/e)
+Y. Daniel Liang 著、蔡明志 譯/碁峰出版日期：2015-04-14
+```
+```
 Python 入門邁向高手之路王者歸來
 洪錦魁/上奇資訊出版日期：2017-12-15
 ```
@@ -19,6 +29,20 @@ Python 入門邁向高手之路王者歸來
 Python 錦囊妙計, 3/e (Python Cookbook, 3/e)
 繁體中文/David Beazley, Brian K. Jones 著、黃銘偉 譯/歐萊禮出版日期：2014-04-14
 ```
+```
+Python 技術手冊, 3/e (Python in a Nutshell: A Desktop Quick Reference, 3/e)
+繁體中文/Alex Martelli 著、黃銘偉 譯/歐萊禮出版日期：2018-01-12
+```
+# Python 標準函式庫
+```
+Python 函式庫語法範例字典
+繁體中文/池内孝啓, 鈴木たかのり, 石本敦夫, 小坂健二郎, 真嘉比愛 著、林子政 譯/旗標出版日期：2016-08-25
+```
+
+```
+
+```
+
 # Python Network Programming 網路程式開發
 ```
 Foundations of Python Network Programming, 3/e (Paperback)
@@ -39,7 +63,14 @@ Dmitry Zinoviev/Pragmatic Bookshelf出版日期：2018-01-29
 ```
 
 # Python Web 網站程式開發
+```
+It's Django -- 用 Python 迅速打造 Web 應用
+繁體中文/袁克倫、楊孟穎/碁峰出版日期：2015-06-08
+```
 
+```
+
+```
 # Python Web manipulation 網站存取
 ```
 網站擷取｜使用Python (Web Scraping with Python: Collecting Data from the Modern Web)
@@ -47,7 +78,7 @@ Ryan Mitchell 著，Studio Tib 譯/歐萊禮出版日期：2016-10-02
 ```
 
 
-# Python amd security
+# Python and security
 ```
 黑帽 Python | 給駭客與滲透測試者的 Python 開發指南
 Justin Seitz 著、Studio Tib. 譯/碁峰出版日期：2015-10-13
@@ -86,7 +117,11 @@ https://github.com/udemy-course/python-data-science-intro
 線上學習程式碼
 http://nbviewer.jupyter.org/github/udemy-course/python-data-science-intro/tree/master/
 ```
-
+# Python BigData analysis
+```
+Python+Spark 2.0+Hadoop 機器學習與大數據分析實戰
+繁體中文/林大貴/博碩出版日期：2016-10-03
+```
 
 # Python Machine learning
 ```
