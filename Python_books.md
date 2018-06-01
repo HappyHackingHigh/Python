@@ -252,7 +252,7 @@ https://github.com/oreilly-japan/deep-learning-from-scratch
 Python 深度學習 (Python Deep Learning)
 Valentino Zocca, Gianmario Spacagna, Daniel Slater, Peter Roelants 著、劉立民、吳建華、陳開煇 譯/博碩出版日期：2018-01-04
 ```
-
+# Python/TensorFlow  Deep learning深度學習
 ```
 Deep Learning with TensorFlow - Second Edition: Explore neural networks with Python
 Giancarlo Zaccone, Md. Rezaul Karim/Packt Publishing - ebooks Account出版日期：2018-04-10
