@@ -114,11 +114,13 @@ Raspberry Pi for Python Programmers Cookbook - Second Edition
 英文/Tim Cox/Packt Publishing - ebooks Account出版日期：2016-10-07
 ```
 ```
-Raspberry Pi 3 Cookbook for Python Programmers - Third Edition: Over 70 recipes for Python Programmers to unleash the potential of Raspberry Pi 3
-英文/Tim Cox, Dr. Steven Lawrence Fernandes/Packt Publishing - ebooks Account出版日期：2018-04-30
+Raspberry Pi 3 Cookbook for Python Programmers - Third Edition: 
+Over 70 recipes for Python Programmers to unleash the potential of Raspberry Pi 3
+英文/Tim Cox, Dr. Steven Lawrence Fernandes/Packt Publishing 出版日期：2018-04-30
 ```
 ```
-Raspberry Pi Image Processing Programming: Develop Real-Life Examples with Python, Pillow, and SciPy
+Raspberry Pi Image Processing Programming: 
+Develop Real-Life Examples with Python, Pillow, and SciPy
 英文/Ashwin Pajankar/Apress出版日期：2017-03-24
 ```
 ```
@@ -149,7 +151,10 @@ Python金融實戰 ( Python for Finance )
 ```
 金融科技實戰：Python與量化投資
 蔡立耑/博碩出版日期：2018-01-04
-介紹隨機變數、描述性統計、變異數分析、推論統計、迴歸分析等統計學基礎。 ‧說明資產投資組合理論、收益率及風險、資本資產定價模型、三因子模型等金融理論。 ‧認識時間序列的基本概念、性質和預測、GARCH模型、配對交易策略。 ‧解說投資相關的K線圖、RSI相對強弱指標、動量交易策略、均線系統策略
+介紹隨機變數、描述性統計、變異數分析、推論統計、迴歸分析等統計學基礎。 
+說明資產投資組合理論、收益率及風險、資本資產定價模型、三因子模型等金融理論。 
+認識時間序列的基本概念、性質和預測、GARCH模型、配對交易策略。 
+解說投資相關的K線圖、RSI相對強弱指標、動量交易策略、均線系統策略
 ```
 ```
 Python與量化投資:從基礎到實戰
@@ -165,7 +170,8 @@ Black Hat Python: Python Programming for Hackers and Pentesters (Paperback)
 Justin Seitz/No Starch Press出版日期：2014-12-21
 ```
 ```
-Python絕技：運用Python成為頂級駭客 (Violent Python : A Cookbook for Hacker, Forensic Analysis, Penetration Testers and Security Engineers)
+Python絕技：運用Python成為頂級駭客 
+Violent Python : A Cookbook for Hacker, Forensic Analysis, Penetration Testers and Security Engineers
 簡體中文/奧科羅 (TJ O'Connor)/電子工業出版社出版日期：2016-01-01
 ```
 ```
@@ -252,7 +258,8 @@ https://github.com/oreilly-japan/deep-learning-from-scratch
 ```
 ```
 Python 深度學習 (Python Deep Learning)
-Valentino Zocca, Gianmario Spacagna, Daniel Slater, Peter Roelants 著、劉立民、吳建華、陳開煇 譯/博碩出版日期：2018-01-04
+Valentino Zocca, Gianmario Spacagna, Daniel Slater, Peter Roelants 著
+劉立民、吳建華、陳開煇 譯/博碩出版日期：2018-01-04
 ```
 # Python/TensorFlow  Deep learning深度學習
 ```
@@ -299,8 +306,9 @@ Reinforcement Learning: With Open AI, TensorFlow and Keras Using Python
 Abhishek Nandy, Manisha Biswas/Apress出版日期：2017-12-08
 ```
 ```
-Reinforcement Learning with Tensorflow: Learn the art of designing self-learning systems with TensorFlow and OpenAI Gym
-Sayon Dutta/Packt Publishing - ebooks Account出版日期：2018-05-09
+Reinforcement Learning with Tensorflow: 
+Learn the art of designing self-learning systems with TensorFlow and OpenAI Gym
+Sayon Dutta/Packt Publishing 出版日期：2018-05-09
 ```
 
 
