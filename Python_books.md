@@ -1,5 +1,17 @@
 # Python Programming
 ```
+Python 程式設計入門 (適用於 2.x 與 3.x 版)
+葉難/博碩出版日期：2015-04-01
+```
+```
+Python 3.5 技術手冊
+林信良/碁峰出版日期：2016-07-28
+```
+```
+Python 入門邁向高手之路王者歸來
+洪錦魁/上奇資訊出版日期：2017-12-15
+```
+```
 精通 Python 3 程式設計 (Programming in Python 3: A Complete Introduction to the Python Language, 2/e)
 繁體中文/Mark Summerfield 著、蔣大偉 譯/碁峰出版日期：2010-11-24
 ```
@@ -7,7 +19,7 @@
 Python 錦囊妙計, 3/e (Python Cookbook, 3/e)
 繁體中文/David Beazley, Brian K. Jones 著、黃銘偉 譯/歐萊禮出版日期：2014-04-14
 ```
-# Python Network Programming
+# Python Network Programming 網路程式開發
 ```
 Foundations of Python Network Programming, 3/e (Paperback)
 Brandon Rhodes, John Goerzen/Apress出版日期：2014-10-20
@@ -26,16 +38,23 @@ Complex Network Analysis in Python: Recognize - Construct - Visualize - Analyze 
 Dmitry Zinoviev/Pragmatic Bookshelf出版日期：2018-01-29
 ```
 
+# Python Web 網站程式開發
 
-# Python Web manipulation
+# Python Web manipulation 網站存取
 ```
 網站擷取｜使用Python (Web Scraping with Python: Collecting Data from the Modern Web)
 Ryan Mitchell 著，Studio Tib 譯/歐萊禮出版日期：2016-10-02
 ```
+
+
 # Python amd security
 ```
 黑帽 Python | 給駭客與滲透測試者的 Python 開發指南
 Justin Seitz 著、Studio Tib. 譯/碁峰出版日期：2015-10-13
+```
+```
+Python絕技：運用Python成為頂級駭客 (Violent Python : A Cookbook for Hacker, Forensic Analysis, Penetration Testers and Security Engineers)
+簡體中文/奧科羅 (TJ O'Connor)/電子工業出版社出版日期：2016-01-01
 ```
 ```
 Understanding Network Hacks: Attack and Defense with Python
@@ -48,24 +67,27 @@ Python 資料運算與分析實戰：一次搞懂 NumPy•SciPy•Matplotlib•p
 作者： 中久喜健司  譯者： 莊永裕 出版社：旗標   出版日期：2018/02/05
 ```
 ```
+高效率資料分析｜使用Python (Foundations for Analytics with Python)
+Clinton W. Brownley 著、賴屹民 譯/歐萊禮出版日期：2016-12-19
+```
+
+```
+R 語言使用者的 Python 學習筆記
+https://github.com/yaojenkuo/learn_python_for_a_r_user
+```
+```
+Python 資料分析 (Python Data Analysis)
+簡體中文/[印尼]Ivan Idris 伊德裡斯/人民郵電出版社出版日期：2016-02-01
+```
+```
 Python3 for Data Science 
 https://www.udemy.com/python-for-data-science/?couponCode=PYTHON-DATA-SCI10
 https://github.com/udemy-course/python-data-science-intro
 線上學習程式碼
 http://nbviewer.jupyter.org/github/udemy-course/python-data-science-intro/tree/master/
 ```
-```
-高效率資料分析｜使用Python (Foundations for Analytics with Python)
-Clinton W. Brownley 著、賴屹民 譯/歐萊禮出版日期：2016-12-19
-```
-```
-精通機器學習｜使用Python (Introduction to Machine Learning with Python: A Guide for Data Scientists)
-Sarah Guido, Andreas C. Mueller 著、李宜修 譯/歐萊禮出版日期：2017-10-31
-```
-```
-R 語言使用者的 Python 學習筆記
-https://github.com/yaojenkuo/learn_python_for_a_r_user
-```
+
+
 # Python Machine learning
 ```
 Python 機器學習 (Python Machine Learning)
@@ -77,6 +99,10 @@ https://github.com/rasbt/python-machine-learning-book
 ```
 初探機器學習｜使用 Python (Thoughtful Machine Learning with Python)
 Matthew Kirk 著；陳仁和 譯/歐萊禮出版日期：2017-09-14
+```
+```
+精通機器學習｜使用Python (Introduction to Machine Learning with Python: A Guide for Data Scientists)
+Sarah Guido, Andreas C. Mueller 著、李宜修 譯/歐萊禮出版日期：2017-10-31
 ```
 # Python Deep learning深度學習
 ```
