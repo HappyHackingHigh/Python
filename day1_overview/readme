@@ -44,3 +44,17 @@ http://rumkin.com/tools/cipher/
 Python開發環境
 安裝Python2.7==>裝在D:\python27
 安裝Python3.6==>裝在D:\python3{記得改成python3}
+
+
+import sys
+import hashlib
+import os.path
+
+filename = sys.argv[1]
+if os.path.isfile(filename):
+    fp = open(filename, 'rb')
+    contents = fp.read()
+    fp.close()
+    print(hashlib.md5(contents).hexdigest())
+else:
+    print('file not exists')
