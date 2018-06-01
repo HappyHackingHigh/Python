@@ -263,7 +263,10 @@ Getting Started with TensorFlow (Paperback) /Giancarlo Zaccone/Packt Publishing 
 Deep Learning with TensorFlow - Second Edition: Explore neural networks with Python
 Giancarlo Zaccone, Md. Rezaul Karim/Packt Publishing 出版日期：2018-04-10
 ```
-
+```
+TensorFlow+Keras 深度學習人工智慧實務應用
+繁體中文/林大貴 著/博碩出版日期：2017-06-08
+```
 # Python/PyTorch Deep learning深度學習
 ```
 深度學習入門之PyTorch
