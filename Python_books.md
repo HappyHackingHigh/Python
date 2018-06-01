@@ -254,8 +254,46 @@ Valentino Zocca, Gianmario Spacagna, Daniel Slater, Peter Roelants 著、劉立�
 ```
 # Python/TensorFlow  Deep learning深度學習
 ```
+深度學習快速入門—使用 TensorFlow (Getting started with TensorFlow) Giancarlo Zaccone/博碩出版日期：2017-01-10
+Getting Started with TensorFlow (Paperback) /Giancarlo Zaccone/Packt Publishing - ebooks Account出版日期：2016-07-29
+```
+```
 Deep Learning with TensorFlow - Second Edition: Explore neural networks with Python
 Giancarlo Zaccone, Md. Rezaul Karim/Packt Publishing - ebooks Account出版日期：2018-04-10
 ```
 
-# Python reforcement learning強化學習
+# Python/PyTorch Deep learning深度學習
+```
+深度學習入門之PyTorch
+簡體中文/廖星宇/電子工業出版社出版日期：2017-09-01
+```
+```
+深度學習框架PyTorch:入門與實踐
+簡體中文/陳雲/電子工業出版社出版日期：2018-01-01
+```
+```
+深度學習之PyTorch實戰電腦視覺
+簡體中文/唐進民/電子工業出版社出版日期：2018-05-01
+```
+```
+Deep Learning with PyTorch: A practical approach to building neural network models using PyTorch
+Vishnu Subramanian/Packt Publishing出版日期：2018-02-23
+```
+
+# Python reinforcement learning強化學習
+```
+Practical Reinforcement Learning ==> OpenAI Gym, Python
+Dr. Engr. S.M. Farrukh Akhtar/Packt Publishing - ebooks Account出版日期：2017-10-20
+```
+```
+Reinforcement Learning: With Open AI, TensorFlow and Keras Using Python
+Abhishek Nandy, Manisha Biswas/Apress出版日期：2017-12-08
+```
+```
+Reinforcement Learning with Tensorflow: Learn the art of designing self-learning systems with TensorFlow and OpenAI Gym
+Sayon Dutta/Packt Publishing - ebooks Account出版日期：2018-05-09
+```
+
+
+
+
