@@ -158,6 +158,9 @@ Python與量化投資:從基礎到實戰
 ```
 黑帽 Python | 給駭客與滲透測試者的 Python 開發指南
 Justin Seitz 著、Studio Tib. 譯/碁峰出版日期：2015-10-13
+
+Black Hat Python: Python Programming for Hackers and Pentesters (Paperback)
+Justin Seitz/No Starch Press出版日期：2014-12-21
 ```
 ```
 Python絕技：運用Python成為頂級駭客 (Violent Python : A Cookbook for Hacker, Forensic Analysis, Penetration Testers and Security Engineers)
