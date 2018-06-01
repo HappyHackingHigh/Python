@@ -18,8 +18,17 @@ Java 程式設計導論(第十版) (Introduction to Java Programming : Comprehen
 Y. Daniel Liang 著、蔡明志 譯/碁峰出版日期：2015-04-14
 ```
 ```
+Python 也可以這樣學
+董付國 著、廖信彥 審校/博碩出版日期：2017-10-30
+```
+```
 Python 入門邁向高手之路王者歸來
 洪錦魁/上奇資訊出版日期：2017-12-15
+```
+
+```
+Python 程式設計入門：金融商管實務案例, 2/e
+林萍珍/博碩出版日期：2017-05-07
 ```
 ```
 精通 Python 3 程式設計 (Programming in Python 3: A Complete Introduction to the Python Language, 2/e)
@@ -40,7 +49,8 @@ Python 函式庫語法範例字典
 ```
 
 ```
-
+Python Essential Reference, 4/e (Paperback)
+David Beazley/Addison-Wesley Professional出版日期：2009-07-19
 ```
 
 # Python Network Programming 網路程式開發
@@ -69,14 +79,53 @@ It's Django -- 用 Python 迅速打造 Web 應用
 ```
 
 ```
-
+Python 架站特訓班 -- Django 最強實戰
+繁體中文/鄧文淵 總監製/文淵閣工作室 編著/碁峰出版日期：2017-08-29
 ```
+
+
 # Python Web manipulation 網站存取
 ```
 網站擷取｜使用Python (Web Scraping with Python: Collecting Data from the Modern Web)
 Ryan Mitchell 著，Studio Tib 譯/歐萊禮出版日期：2016-10-02
 ```
+```
+用 Python 寫網絡爬蟲 (Web Scraping with Python)
+簡體中文/[澳]理乍得 勞森/人民郵電出版社出版日期：2016-08-01
+```
+```
+Python 網絡爬蟲實戰
+簡體中文/胡松濤/清華大學出版社出版日期：2017-01-01
+```
 
+```
+Python 爬蟲開發與項目實戰
+簡體中文/範傳輝/機械工業出版社出版日期：2017-06-01
+```
+
+
+# Python and Finance
+```
+Python 網頁程式交易 APP 實作：Web + MySQL + Django
+林萍珍/博碩文化出版日期：2018-03-12
+```
+```
+Python：期貨演算法交易實務 121個關鍵技巧詳解
+酆士昌、劉承彥 著/博碩出版日期：2017-11-16
+```
+```
+Python金融實戰 ( Python for Finance )
+簡體中文/嚴玉星/人民郵電出版社出版日期：2017-07-01
+```
+```
+金融科技實戰：Python與量化投資
+蔡立耑/博碩出版日期：2018-01-04
+介紹隨機變數、描述性統計、變異數分析、推論統計、迴歸分析等統計學基礎。 ‧說明資產投資組合理論、收益率及風險、資本資產定價模型、三因子模型等金融理論。 ‧認識時間序列的基本概念、性質和預測、GARCH模型、配對交易策略。 ‧解說投資相關的K線圖、RSI相對強弱指標、動量交易策略、均線系統策略
+```
+```
+Python與量化投資:從基礎到實戰
+簡體中文/王小川, 等/電子工業出版社出版日期：2018-03-01
+```
 
 # Python and security
 ```
