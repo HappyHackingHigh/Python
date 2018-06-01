@@ -264,6 +264,10 @@ Deep Learning with TensorFlow - Second Edition: Explore neural networks with Pyt
 Giancarlo Zaccone, Md. Rezaul Karim/Packt Publishing 出版日期：2018-04-10
 ```
 ```
+21個項目玩轉深度學習——基於TensorFlow的實踐詳解
+簡體中文/何之源/電子工業出版社出版日期：2018-03-01
+```
+```
 TensorFlow+Keras 深度學習人工智慧實務應用
 繁體中文/林大貴 著/博碩出版日期：2017-06-08
 ```
