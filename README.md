@@ -4,6 +4,7 @@
 ```
 為什麼要學Python?
 如何學Python?打造你的學習地圖!
+Python 3和Python 2的主要差異
 ```
 # Python開發環境
 
@@ -23,10 +24,20 @@
 [1]進入你的程式目錄 D:\p3code (三年級)  D:\p_code(一(年級) 
 [2]D:\python2\python.exe XXX.py
 或 D:\python3\python.exe XXX.py
+
+C:\p3code>path=c:\python3;%path%
+C:\p3code>python hello.py
 ```
 
 ### Python開發環境@Ubuntu 16.04 LTS 64-bit
 
+### 使用虛擬開發環境
+>* virtualenv 
+>* 使用Vagrant的虛擬開發環境
+
+### 使用IDE
+>* 
+>* 
 
 # [1]輸入與輸出 USER INPUTS AND OUTPUTS:
 ```
@@ -35,6 +46,8 @@
 raw_input([prompt]) 函數從標準輸入讀取一個行，並返回一個字串（去掉結尾的分行符號）
 input([prompt]) 函數和 raw_input([prompt]) 函數基本類似，但是 input 可以接收一個Python運算式作為輸入，並將運算結果返回。
 
+從控制台讀取輸入資訊
+
 [1.2]輸出:print
 
 [1.3]格式化輸出Formatted Output
@@ -42,16 +55,31 @@ input([prompt]) 函數和 raw_input([prompt]) 函數基本類似，但是 input 
 
 # [2]各種資料型態(data type)及其運算[1][2][3][4]...[X]
 ```
+識別字與關鍵字
+
 數字型(numeric)資料型態及其運算
+Integral 類型:整數類型|布爾型
+浮點類型:浮點數|複數
+二進位八進位十進位十六進位數字
+
 字串(string)資料型態及其運算
+如何操縱Unicode字串
+
+Collection Data Types組合類型資料型態 
 列表|串列(list)資料型態及其運算
+元組(tuple)資料型態及其運算
 辭典|字典(dic)資料型態及其運算
 集合(set)資料型態及其運算
 ```
-### 運算子
-```
-餘數運算子 (remainder|modulo)
-```
+### 運算子:
+>* Arithmetic Operators
+>* 餘數運算子 (remainder|modulo)
+>* Membership Operator
+>* Comparison Operators
+Logical Operators
+
+### 組合類型資料型態的高級特性:切片|迭代 |列表生成式 |生成器|迭代器
+
 # [3]迴圈與選擇(判斷)
 ```
 迴圈::while | for loop  |沒有do-while  |range|break|continue
@@ -77,7 +105,8 @@ range(start, stop[, step])
 
 # [4]函式/函數/function
 
-#### 
+#### function開發(功能)
+
 ```
 可接受任意數量參數的函數
 只接受關鍵字參數的函數
@@ -94,7 +123,7 @@ range(start, stop[, step])
 ```
 #### 遞迴函式
 
-# [5]異常與例外處理
+# [5]異常,例外處理與斷言 Exception Handling
 
 # [6]各種類型檔案存取技術
 
